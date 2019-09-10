@@ -1,0 +1,20 @@
+lista = ['banana', 'laranja', 'pera']
+print (lista)
+lista.append('uva')
+print (lista)
+
+lista.pop(1)
+print(lista)
+
+lista.append('laranja')
+print(lista)
+
+lista.remove('banana')
+print(lista)
+
+print(lista[-1])
+
+lista.clear()
+print(lista)
+
+
