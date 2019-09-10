@@ -1,0 +1,15 @@
+v = 1
+n1 = int(input('''Bem vindo a PythonAda!
+Qual a tabuada gostaria de calcular?'''))
+
+print('A tabuada do ', n1, ' é: ')
+while v <= 10:
+    print(n1, '*', v ,' = ', n1 * v )
+    v = v + 1
+    if v >= 11:
+        print('FIM')
+        break
+else:
+    print('FIM')
+
+
