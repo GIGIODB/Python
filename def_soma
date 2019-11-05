@@ -1,0 +1,14 @@
+def soma(x,y):
+    total = x + y
+    return total
+n = soma(10,20)
+print(n)
+
+
+def soma2(x,y):
+    total = x + y
+    return total
+valor_1 = float(input("Digite um número: "))
+valor_2 = float(input("Digite um número: "))
+a = soma(valor_1,valor_2)
+print (a)
