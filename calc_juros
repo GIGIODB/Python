@@ -1,0 +1,9 @@
+def calc_juros(c,i,t):
+    m = c * (1 + (i / 100))**t
+    return m
+
+c = float(input("Qual o capital inicial? "))
+i = float(input("Qual a taxa de juros? "))
+t = int(input("Qual o período? "))
+
+print(calc_juros(c, i, t))
